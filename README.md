@@ -1,5 +1,11 @@
 # Pulse Candy Project 🍬
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+## Introduction
 Welcome to the Pulse Candy Project! 🚀 This project is dedicated to creating a delightful website that captures the essence and nostalgia of everyone's favorite childhood sweet treat – the candy with a tangy burst.
 
 ![pulse-candy-mockup](https://github.com/ashish-makes/pulse-candy/assets/106135144/1b150bcc-36f6-49fa-9fc4-113e04f04faf)
