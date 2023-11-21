@@ -1,0 +1,364 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Poppins';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+	transition: .3s ease;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+	color: #0e2045;
+	background: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+main {
+    flex: 1;
+}
+
+img{
+	width: 100%;
+}
+
+section{
+	padding: 3rem 0 2rem;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #0e2045;
+}
+
+.container{
+	max-width: 960px;
+	margin: auto;
+	width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 999;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+hero {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1em;
+}
+
+.sub-hero {
+    z-index: 999;
+    text-align: center;
+    padding: 5em;
+}
+
+.sub-hero img {
+    width: 40em;
+    height: auto;
+}
+
+.sub-hero h1 {
+    font-size: 2em;
+}
+
+.gradient {
+    z-index: -1;
+    position: absolute;
+}
+
+.gradient-text {
+    background-image: linear-gradient(to right, #ff67a6, #ffab10);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.circle1 { 
+    position: fixed;
+    left: 60%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background: #f2a8cb;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    filter: blur(100px);
+    opacity: 50%;
+}
+
+.circle2 { 
+    position: fixed;
+    left: 88%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    background: #f9a357;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    filter: blur(100px);
+    opacity: 50%;
+}
+
+.circle3 { 
+    position: fixed;
+    left: 90%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    background: #3fff89;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    filter: blur(100px);
+    opacity: 50%;
+}
+
+.popular h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.why-choose-us h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.all-candies h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.candy-list {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 1em;
+}
+
+.popular-candy {
+    padding: 1.5em;
+    border-radius: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(10px);
+
+}
+
+.popular-candy h2 {
+    line-height: .2em;
+}
+
+.popular-candy:hover, .why-us:hover, .candy:hover{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+	transform: translateY(-.5rem);
+}
+
+.why-us-col {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.why-us-list li {
+    margin: 1em;
+}
+
+.why-us {
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 1em;
+    border-radius: .6em;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+}
+
+.candy img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+.all-candies-list {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 1em;
+}
+
+.candy {
+    background-color: #ffffff;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    /* border: 2px solid #f6f7f8; */
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: #ff67a6;
+    border-radius: .6em;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    width: 100%;
+    margin: 1em 0;
+}
+
+button:hover {
+    box-shadow: 0 0 60px rgba(255, 8, 156, 0.2);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+footer {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+    padding: 1em;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 2em;
+}
+
+.footer form button {
+    width: 40%;
+    padding: .5em;
+}
+
+input, textarea {
+    outline: none;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ff67a6;
+    background: rgba(255, 255, 255, 0.2);
+    height: 2em;
+    padding: 1em .5em;
+    border-radius: .4em;
+}
+
+textarea {
+    resize: none;
+    height: 8em;
+}
+
+input:hover, textarea:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+	transform: translateY(-.5rem);
+}
+
+/* Making Responsive */
+@media (max-width: 980px){
+	.container{
+		margin: 0 auto;
+		width: 90%;
+	}
+    .sub-hero img {
+        width: 35em;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px){
+    .candy-list, .all-candies-list, .why-us-col, .footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .candy-list img, .all-candies-list img, .why-us-col img {
+        width: 50%;
+        height: auto;
+    }
+    .sub-hero img {
+        width: 30em;
+        height: auto;
+    }
+}
+
+@media (max-width: 610px){
+    .sub-hero img {
+        width: 25em;
+        height: auto;
+    }
+    .sub-hero h1 {
+        font-size: 1.5em;
+        margin: 0 -2em;
+    }
+    header nav ul {
+        display: none;
+    }
+}
+
+@media (max-width: 525px){
+    .sub-hero img {
+        width: 22em;
+        height: auto;
+        margin-left: -2.5em;
+    }
+    .popular h2, .why-choose-us h2, .all-candies h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 430px){
+    .sub-hero img {
+        width: 18em;
+        height: auto;
+        margin-left: -2.5em;
+    }
+}
